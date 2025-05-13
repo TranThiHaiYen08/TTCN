@@ -314,3 +314,37 @@
 </body>
 </html>
 <?php $conn->close(); ?>
+
+ <!-- Footer -->
+     <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Column 1 -->
+                <div class="col-md-4 mb-4">
+                    <h5>PHÒNG CÔNG TÁC SINH VIÊN - HVNH</h5>
+                    <p>Phòng Công tác sinh viên HVNH là đơn vị hỗ trợ toàn diện cho sinh viên trong học tập và hoạt động ngoại khóa.  
+  Là đầu mối quản lý các câu lạc bộ sinh viên và tổ chức sự kiện tại học viện.                </div>
+                
+                <!-- Column 2 -->
+                <div class="col-md-4 mb-4">
+                    <h5>THÔNG TIN LIÊN HỆ</h5>
+                    <p>Địa chỉ: Phòng 101, 102 Tòa nhà A2</p>
+                    <p>Trụ sở chính Học viện Ngân hàng</p>
+                    <p>Phone: 0243 852 1853</p>
+                    <p>Email: hotrosinhvien@hvnh.edu.vn</p>
+                </div>
+                
+                <!-- Column 3 -->
+                <div class="col-md-4 mb-4">
+                    <h5>LINK QUAN TRỌNG</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Sự kiện</a></li>
+                        <li><a href="#">Huy động</a></li>
+                        <li><a href="#">Công việc</a></li>
+                        <li><a href="#">Điểm danh</a></li>
+                        <li><a href="#">Đánh giá</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>

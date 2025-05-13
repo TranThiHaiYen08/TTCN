@@ -111,7 +111,10 @@ try {
 } catch (Exception $e) {
     echo json_encode([
         'success' => false,
-        'message' => 'Lỗi: ' . $e->getMessage()
+        'message' => 'Lỗi: ' . $e->getMessage(),
+        'debug' => [
+            'mysqli_error' => $conn->error
+        ]
     ]);
 }
 

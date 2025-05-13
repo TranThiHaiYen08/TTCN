@@ -110,3 +110,19 @@ function showDetailMember(ma, ten, ngaysinh, gioitinh, lop, khoa, sdt, email, te
     const modal = new bootstrap.Modal(document.getElementById('detailMemberModal'));
     modal.show();
 }
+ 
+//Hàm mở modal chi tiet sinh vien
+function showDetailMember(maSV, hoTen, ngaySinh, gioiTinh, lop, khoa, sdt, email, tenDangNhap) {
+    document.getElementById('detailMaSinhVien').textContent = maSV;
+    document.getElementById('detailHoTen').textContent = hoTen;
+    document.getElementById('detailNgaySinh').textContent = ngaySinh;
+    document.getElementById('detailGioiTinh').textContent = gioiTinh;
+    document.getElementById('detailLop').textContent = lop;
+    document.getElementById('detailKhoa').textContent = khoa;
+    document.getElementById('detailSDT').textContent = sdt;
+    document.getElementById('detailEmail').textContent = email;
+    document.getElementById('detailTenDangNhap').textContent = tenDangNhap;
+
+    var detailModal = new bootstrap.Modal(document.getElementById('detailMemberModal'));
+    detailModal.show();
+}
